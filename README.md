@@ -1,2 +1,2 @@
 # FinTrap
-FinTrap is a secure fintech API that simulates real-world cyberattacks, detects them using a honeypot system, and visualizes threats in real time.
+Built a secure payment API (FastAPI + PostgreSQL) with rate limiting, input validation, and parameterized queries. Deployed a parallel honeypot service with 5 deceptive endpoints that log and auto-classify attacker behavior into SQL Injection, Brute Force, and Recon categories. Wrote attack simulation scripts to test the system from an attacker's perspective. Built a real-time React dashboard that visualizes attack patterns, top attacker IPs, and attack volume over time.
