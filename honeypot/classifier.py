@@ -31,6 +31,16 @@ SQL_INJECTION_PATTERNS = [
     ";--",
     "' --",
     "1=1--",
+    # Add these missing patterns
+    "--",
+    "' #",
+    "admin' #",
+    "or 'x'='x",
+    "' or 'x'",
+    "1' or '1'",
+    "or '1' =",
+    "'/*",
+    "1=1/*",
 ]
 
 RECON_PATHS = [
